@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width",initial-scale="1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge"
+        <title>Drag and Drop game</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js" defer></script>
+    </head>
+    <body>
+        <section class="draggable-elements">
+            <i class="fas fa-solid fa-hippo" style="color:aqua;" id="hippo"></i>
+            <i class="fas fa-solid fa-dog" style="color:aquamarine" id="dog"></i>
+            <i class="fas fa-solid fa-fish" style="color:rgb(25, 121, 204)" id="fish"></i>
+        </section>
+        <section class="droppable-elements">
+            <div class="droppable" data-draggable-id="hippo"><span>Hippo</span></div>
+            <div class="droppable" data-draggable-id="dog"><span>Dog</span></div>
+            <div class="droppable" data-draggable-id="fish"><span>Fish</span></div>
+        </section>
+    </body>
+    </html>
