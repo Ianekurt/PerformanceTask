@@ -1,0 +1,33 @@
+h1{
+    text-align:Center;
+    color: aqua;
+}
+.draggableContainer{
+    border:1px solid  #18d8ce;
+    margin-bottom: 400px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.box{
+    background-color: #18d8ce;
+    align-items: center;
+    justify-content: center;
+    height:30px;
+    width: 130px;
+    margin-right: 5px;
+
+}
+.droppableContainer{
+    border: 1px solid #b82d2d;
+    display:flex;
+    flex-direction: row;
+}
+.droppable{
+    background-color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 150px;
+    margin-right: 5px;
+}
